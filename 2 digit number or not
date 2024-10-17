@@ -1,0 +1,11 @@
+to find the given number is a 2 digit number or not
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if (9<a>100)
+    {printf("the give number is two digit number %d ",a);
+    }
+    else 
+    {printf("it is not a double digit number %d",a);}
+}
