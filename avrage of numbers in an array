@@ -1,0 +1,15 @@
+//avrage of numbers in an array
+#include <stdio.h>
+int main() {
+int n;
+printf("enter the size :");
+scanf("%d",&n);
+    int a[n];
+    int sum=0;
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);
+        sum=sum+a[i];
+    }
+        printf("sum :%d\n",sum);
+        float avg=sum/(float)n;
+        printf("avg :%.2f",avg);}
