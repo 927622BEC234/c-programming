@@ -1,0 +1,21 @@
+//sum of even and odd  index numbers
+#include <stdio.h>
+int main() {
+int n;
+printf("enter the size :");
+scanf("%d",&n);
+    int a[n];
+    int sum=0;
+    int sum1=0;
+    for(int i=0;i<5;i++){
+        scanf("%d",&a[i]);
+        if(i%2==0){
+        sum=sum+a[i];}
+        else if (i%2!=0){
+            sum1=sum1+a[i];
+        }
+    }
+        printf("sum : %d\n",sum);
+            printf("odd: %d",sum1);
+
+     } 
