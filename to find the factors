@@ -1,0 +1,16 @@
+//find factors for the given number 
+
+#include <stdio.h>
+int main(){
+    int n=1;
+    int a;
+    int c=0;
+    scanf("%d",&a);
+    while(n>=0){
+        if(a%n==0){
+             c++;  
+        printf("the factors are :%d\n",n);
+        }
+        n++;
+    }  printf("%d",c++); 
+}
