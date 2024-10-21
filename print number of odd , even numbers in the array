@@ -1,0 +1,19 @@
+//print the number of odd and even numbers in the array
+#include <stdio.h>
+int main() {
+int n;
+printf("enter the size :");
+scanf("%d",&n);
+    int a[n];
+    int even =0;
+    int odd =0;
+    for (int i=0;i<n;i++){
+        scanf("%d",&a[i]);
+       if(a[i]%2==0){
+            even++;}}
+       printf(" even:%d\n",even);
+        for (int i=0;i<n;i++){
+       if(a[i]%2!=0){
+             odd++;}}
+       printf(" odd:%d\t",odd);
+}
