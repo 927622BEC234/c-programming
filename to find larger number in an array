@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a[5];
+    int large=0;
+     for(int i=0;i<5;i++){
+     scanf("%d",&a[i]);
+     if(a[i]>large){
+         large=a[i];
+     }}
+ printf("the large number is:%d\n",large);
+  return 0;
+}
