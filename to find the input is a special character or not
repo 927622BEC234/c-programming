@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    char a;
+    scanf("%c",&a);
+    if(a>='A' && a<='Z')
+    {printf("not a special character %c",a);}
+    else if(a>='a' && a<='z')
+    {printf("not a special character %c",a);}
+    else if (a>='0' && a<='9')
+    {printf("not a special character %c",a);}
+    else 
+    {printf("it is a special character %c",a);}
+}
