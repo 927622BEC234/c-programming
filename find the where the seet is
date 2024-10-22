@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main(){
+    int a,n;
+    printf("enter the number 1-72 :");
+    scanf("%d",&a);
+    if(n>=1&&n<=72){
+    n=a%8;
+    switch(n){
+        case 1:
+          case 4:
+        printf("lower");
+        break;
+        case 2:
+          case 5:
+        printf("middle");
+        break;
+         case 3:
+            case 6:
+        printf("upper");
+        break;
+       
+         case 7:
+        printf("side lower");
+        break;
+         case 0:
+        printf("side upper");
+        break;
+    }
+         
+    }
+    else 
+    printf("invalid enter num within 1-72");
+}
